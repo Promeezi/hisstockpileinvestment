@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StockpileInvestment - Investment Plans</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #002855;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .plan-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .plan {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .plan:hover {
+      transform: translateY(-5px);
+    }
+    .plan h3 {
+      color: #004aad;
+      margin-bottom: 10px;
+    }
+    .plan p {
+      margin: 10px 0;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #0c5bff;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #ffc107;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background: #002855;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>StockpileInvestment</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="plans.html">Plans</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>  <div class="container">
+    <h2>Our Investment Plans</h2>
+    <div class="plan-grid">
+      <div class="plan">
+        <h3>Starter Plan</h3>
+        <p class="price">₦5,000 - ₦49,999</p>
+        <p>ROI: 15% Monthly</p>
+        <p>Duration: 30 Days</p>
+        <p>Minimum Withdrawal: ₦2,000</p>
+        <a href="login.html" class="btn">Get Started</a>
+      </div><div class="plan">
+    <h3>Professional Plan</h3>
+    <p class="price">₦50,000 - ₦199,999</p>
+    <p>ROI: 30% Monthly</p>
+    <p>Duration: 30 Days</p>
+    <p>Minimum Withdrawal: ₦5,000</p>
+    <a href="login.html" class="btn">Invest Now</a>
+  </div>
+
+  <div class="plan">
+    <h3>Elite Plan</h3>
+    <p class="price">₦200,000 - ₦1,000,000+</p>
+    <p>ROI: 50% Monthly</p>
+    <p>Duration: 30 Days</p>
+    <p>Minimum Withdrawal: ₦10,000</p>
+    <a href="login.html" class="btn">Join Elite</a>
+  </div>
+</div>
+
+  </div>  <footer>
+    <p>&copy; 2025 StockpileInvestment. All rights reserved.</p>
+    <p>Email: support@stockpileinvestment.com | Phone: +234 812 345 6789</p>
+  </footer>
+</body>
+</html>
